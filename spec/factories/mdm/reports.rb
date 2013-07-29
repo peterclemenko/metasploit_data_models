@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :mdm_report, :aliases => [:report], :class => Mdm::Report do
+  factory :mdm_report, :class => Mdm::Report do
     #
     # Associations
     #

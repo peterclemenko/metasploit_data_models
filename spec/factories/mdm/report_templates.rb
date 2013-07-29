@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :mdm_report_template, :aliases => [:report_template], :class => Mdm::ReportTemplate do
+  factory :mdm_report_template, :class => Mdm::ReportTemplate do
     #
     # Associations
     #
